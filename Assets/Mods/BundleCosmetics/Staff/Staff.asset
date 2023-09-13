@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b878d823b747c9b8d68ad6c23b9fdf, type: 3}
+  m_Name: Staff
+  m_EditorClassIdentifier: 
+  uuid: 9783c29e6b864dafb2982f1908334cb1
+  Name: Staff
+  CoverArt: {fileID: 21300000, guid: 9dbf9c4b06f8d3348933c71fcbb5d75b, type: 3}
+  Color:
+    serializedVersion: 2
+    rgba: 16711920
+  Price: 69
+  ForSale: 0
+  Description: Are you a sussy staff member of PGG? Grab this bundle and ban some
+    skids at #bot-commands!
+  Registered: 1
+  Cosmetics:
+  - Id: 10000054
+    uuid: 05414b256be94eeba23c4b9c7f902304
+    Name: DP2 Thug Real
+    Author: 5c33ad72-a7ef-4259-8d1d-5bca0cfb45d9
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 7d9d5cae92adc6d4a80b83dcacde6c5f, type: 2}
+    Type: 0
+  - Id: 10000056
+    uuid: a8c9e0c33f4f4696a4e55364b355f9e0
+    Name: Sanae Weird
+    Author: 5c33ad72-a7ef-4259-8d1d-5bca0cfb45d9
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 06472ad454faa044686b2e798905260e, type: 2}
+    Type: 0
+  - Id: 10000134
+    uuid: 076c00676ca640b8b52500999af7324b
+    Name: Sussy Meal
+    Author: c4239f1c-9131-4cf9-b2da-61f3629047ec
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: c2597bbe6679fcf46b9ab1833225ae6b, type: 2}
+    Type: 0
+  - Id: 10000136
+    uuid: 9f18bf1a1fe8422a9ac90c56de1891a8
+    Name: Basil
+    Author: c4239f1c-9131-4cf9-b2da-61f3629047ec
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 0d750fcb4cb556a44860db6428701b80, type: 2}
+    Type: 0
+  - Id: 10000148
+    uuid: 9342bc927ede49af85e6f4745c682993
+    Name: Bee
+    Author: 5c33ad72-a7ef-4259-8d1d-5bca0cfb45d9
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 9707ce172f496f14d917e9ff0f4a3486, type: 2}
+    Type: 1

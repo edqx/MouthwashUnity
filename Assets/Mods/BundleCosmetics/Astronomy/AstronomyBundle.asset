@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1e899cadff4fe8bcd0f8080c25aad3, type: 3}
+  m_Name: AstronomyBundle
+  m_EditorClassIdentifier: 
+  bundleName: Astronomy
+  bundleUuid: 37f6a931-ad00-4fbb-aa0a-b42c57d8958f
+  fileUuid: 352ccb1d-2388-4565-9934-e54b397eacf1
+  authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
+  priceUsd: 299
+  valuation: 1
+  thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/352ccb1d-2388-4565-9934-e54b397eacf1.png
+  description: Step into the stars! These hats are embedded with the image of nebulae
+    far beyond
+  tags: space,nebula,stars,hats,sheep,star,galaxy
+  baseResourceId: 1200
+  cosmeticItems:
+  - name: Dreaming Aries
+    itemUuid: 621d1bfa-0a92-92d9-c0e5-95902a9c3f76
+    valuation: 0
+    cosmeticData: {fileID: 11400000, guid: f03a16c0fbc8a57488d2f83890e9bcd4, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 67bed4e5b9c863643a570301eac58108, type: 2}
+  - name: Galaxy Wig
+    itemUuid: 802a44e1-5e95-86a4-63e9-6f7847aa0786
+    valuation: 0
+    cosmeticData: {fileID: 11400000, guid: f378fa46eea94394887e0886cc3153a1, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 860440e70849762458dbae31f554fb53, type: 2}
+  - name: Nightsky
+    itemUuid: 4582c85a-2ecb-46e1-bf45-7a8398ba685e
+    valuation: 0
+    cosmeticData: {fileID: 11400000, guid: 5c058fef79b143a43ba066a9efbd15e7, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: ff4d5595f10c7134c9cdb705998252cc, type: 2}
+  - name: Shooting Star
+    itemUuid: a6b1de48-9e2b-535c-4538-8eb5509d77a9
+    valuation: 0
+    cosmeticData: {fileID: 11400000, guid: fcc1b8229cc2e8a47b50d914c7071d25, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 885bc0bffc5b1cb488c43033aa0d5d33, type: 2}
+  assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\astronomy

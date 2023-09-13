@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 163017495
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5f1dbbdb4b63fdceeef8b1c8349017e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 44f0ed28768cf18bd23ce04d31b92973
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/BundleCosmetics/Astronomy/Dreaming Aries/DreamingAriesHat.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Shooting Star/ShootingStarHat.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Manifest.json
+- Assets/Mods/BundleCosmetics/Astronomy/Nightsky/NightskyHatViewData.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Dreaming Aries/DreamingAriesHatViewData.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Galaxy Wig/GalaxyWig.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Galaxy Wig/GalaxyWigViewData.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Shooting Star/ShootingStarHatViewData.asset
+- Assets/Mods/BundleCosmetics/Astronomy/Nightsky/NightskyHat.asset
+Dependencies: []

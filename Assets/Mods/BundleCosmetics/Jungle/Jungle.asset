@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1e899cadff4fe8bcd0f8080c25aad3, type: 3}
+  m_Name: Jungle
+  m_EditorClassIdentifier: 
+  bundleName: Jungle
+  bundleUuid: dd10cf62-4e97-44e6-9627-31d164b3004a
+  fileUuid: 2889aceb-e6f3-4f75-80a1-5918518b0ba3
+  authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
+  priceUsd: 249
+  valuation: 1
+  thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/2889aceb-e6f3-4f75-80a1-5918518b0ba3.png
+  description: Unleash your inner monkey with these hats from the heart of the jungle.
+  tags: monkey,hippopotanmus,koala,lion,snake,jungle,animal,hats
+  baseResourceId: 1100
+  cosmeticItems:
+  - name: Hippopotamus
+    itemUuid: ffacd55a-da79-409f-a54f-2b8d25010743
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 210ef9c96de86684da3d7c949f80aeaa, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: a4cef97719d3fe64b8047e4e243649ab, type: 2}
+  - name: Koala
+    itemUuid: 9d183bd1-e328-41c5-9ee3-b5786a5981a5
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: abb4d93e0b2c36343833b20b9c7ef0a9, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 97ba14a5680a13649a73d8c03cd3610a, type: 2}
+  - name: Lion
+    itemUuid: 5d181ab6-0b11-4c2d-b242-e17db578c08e
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: edf10921a0871f64dac945926a88e938, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: e72ed8926ef8d304a9431f684df41c25, type: 2}
+  - name: Monkey
+    itemUuid: 2fe5c5fa-18b7-42ab-b36b-1409b4841dc1
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 448ba1794f7b36a4fb84060a72c29289, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 43ae1c0dee283bd428d0d298bd1b0d4a, type: 2}
+  - name: Snake
+    itemUuid: 317ae05e-7a92-43b0-bef6-0030e758cdd7
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: c9938f86fdeb4194babb1eb75c07feba, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: bfc35deb6d16b9b4090305ed09889376, type: 2}
+  assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\jungle

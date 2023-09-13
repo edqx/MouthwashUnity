@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3613919588
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1163844d6ac5888dafe6d4b4cad158ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 44f0ed28768cf18bd23ce04d31b92973
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/BundleCosmetics/Jungle/Lion/LionHat.asset
+- Assets/Mods/BundleCosmetics/Jungle/Lion/LionHatViewData.asset
+- Assets/Mods/BundleCosmetics/Jungle/Manifest.json
+- Assets/Mods/BundleCosmetics/Jungle/Koala/KoalaHatViewData.asset
+- Assets/Mods/BundleCosmetics/Jungle/Snake/SnakeHat.asset
+- Assets/Mods/BundleCosmetics/Jungle/Hippopotamus/HippopotamusHatViewData.asset
+- Assets/Mods/BundleCosmetics/Jungle/Monkey/MonkeyHat.asset
+- Assets/Mods/BundleCosmetics/Jungle/Hippopotamus/HippopotamusHat.asset
+- Assets/Mods/BundleCosmetics/Jungle/Snake/SnakeHatViewData.asset
+- Assets/Mods/BundleCosmetics/Jungle/Monkey/MonkeyHatViewData.asset
+- Assets/Mods/BundleCosmetics/Jungle/Koala/KoalaHat.asset
+Dependencies: []

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b878d823b747c9b8d68ad6c23b9fdf, type: 3}
+  m_Name: Cryptids
+  m_EditorClassIdentifier: 
+  uuid: 
+  Name: Cryptids
+  CoverArt: {fileID: 0}
+  Color:
+    serializedVersion: 2
+    rgba: 1245239
+  Price: 4.99
+  ForSale: 0
+  Description: Become an elusive entity of urban legend with this spooky array of
+    cosmetics!
+  Registered: 0
+  Cosmetics:
+  - Id: 0
+    uuid: 
+    Name: Mothman
+    Author: d9cde231-b552-45b0-869a-c5f7ff5da8fb
+    Registered: 0
+    Cosmetic: {fileID: 11400000, guid: 7031f4c3879392e408274278db001540, type: 2}
+    Type: 0
+  - Id: 0
+    uuid: 
+    Name: Jersey Devil
+    Author: d9cde231-b552-45b0-869a-c5f7ff5da8fb
+    Registered: 0
+    Cosmetic: {fileID: 11400000, guid: 28da77b3c1845f649901cb1a361e65e5, type: 2}
+    Type: 0
+  - Id: 0
+    uuid: 
+    Name: Chupacabra
+    Author: d9cde231-b552-45b0-869a-c5f7ff5da8fb
+    Registered: 0
+    Cosmetic: {fileID: 11400000, guid: bf91ae095844cab4b96cc49d61f4934a, type: 2}
+    Type: 0
+  - Id: 0
+    uuid: 
+    Name: Nessie
+    Author: d9cde231-b552-45b0-869a-c5f7ff5da8fb
+    Registered: 0
+    Cosmetic: {fileID: 11400000, guid: b3e79e438377d514bbbaf93be49310f6, type: 2}
+    Type: 0
+  - Id: 0
+    uuid: 
+    Name: Flatwoods Monster
+    Author: d9cde231-b552-45b0-869a-c5f7ff5da8fb
+    Registered: 0
+    Cosmetic: {fileID: 11400000, guid: 7676f1bed09b0f34e900c7275bf84b01, type: 2}
+    Type: 0

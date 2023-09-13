@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a37bfb451ac931abedf2cd6fc082ff, type: 3}
+  m_Name: TownOfPolus
+  m_EditorClassIdentifier: 
+  BaseId: 10
+  Assets:
+  - {fileID: 2800000, guid: 3c5c53980523c6f469d296e2c134a833, type: 3}
+  - {fileID: 2800000, guid: eab17be7d84977d43995d773d0024cbd, type: 3}
+  - {fileID: 2800000, guid: 2dd89b624cec86542807d6578bb6dbd5, type: 3}
+  - {fileID: 2800000, guid: 58d4ff77a7387d54babd2a6ec7994588, type: 3}
+  - {fileID: 2800000, guid: 2af8d8b10654d104591758614c512149, type: 3}
+  - {fileID: 2800000, guid: 628b15d820483a64faa85eb0f0c6bee1, type: 3}
+  - {fileID: 2800000, guid: 85149872f796b644380c17a4ef0f2f69, type: 3}
+  - {fileID: 2800000, guid: b077567cbf2210244bc4499e426af575, type: 3}
+  - {fileID: 2800000, guid: 74340d736e2d1db4ea160a2f57f923d3, type: 3}
+  - {fileID: 2800000, guid: 8732ff2afb0af1f43b2a9a3bd1bfc4ad, type: 3}
+  - {fileID: 2800000, guid: 0cc2ed1bd23a5097798b64571a3366c5, type: 3}
+  - {fileID: 8300000, guid: 3b8e5bae93ea589449d2becb086d9561, type: 3}
+  - {fileID: 2800000, guid: 0a52977808e645648988dcac51261ec2, type: 3}
+  - {fileID: 2800000, guid: e8837787e2795c148a8bc35dd550f0bf, type: 3}
+  - {fileID: 2800000, guid: 0699b9eac62652c4082dfce6053ddf01, type: 3}
+  - {fileID: 2800000, guid: 6198a34f9ba643e4aba2f45013330f96, type: 3}
+  - {fileID: 2800000, guid: b077567cbf2210244bc4499e426af575, type: 3}
+  - {fileID: 2800000, guid: e615ff63a2993d043831af09d91c5cfb, type: 3}
+  - {fileID: 2800000, guid: faa6ac6753d176f498fef7caa3413633, type: 3}
+  - {fileID: 2800000, guid: cd5d3be154f75a34caa1a0a72b9c9367, type: 3}
+  - {fileID: 8300000, guid: acdd0e84068d7274e99d490f49bd49c0, type: 3}
+  - {fileID: 2800000, guid: d5ffc983bc139604bbc9c3b64c01dcfc, type: 3}
+  - {fileID: 2800000, guid: 4c543d67135b9ae42a973aedf8508b88, type: 3}

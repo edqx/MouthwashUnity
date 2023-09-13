@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b878d823b747c9b8d68ad6c23b9fdf, type: 3}
+  m_Name: Garage
+  m_EditorClassIdentifier: 
+  uuid: f51ebe51fdd7410f882b0bd9dd77c27c
+  Name: Garage
+  CoverArt: {fileID: 21300000, guid: cd8efa59ee06e4443a3cb0a16fd07f40, type: 3}
+  Color:
+    serializedVersion: 2
+    rgba: 659227
+  Price: 5.99
+  ForSale: 1
+  Description: Get ready to have some fun with some relics of a days gone by with
+    the Garage bundle!
+  Registered: 1
+  Cosmetics:
+  - Id: 10000050
+    uuid: 82804d0355cd40efa9446b30c5ab1516
+    Name: Raccoon
+    Author: 70dae216-59ca-43c8-8884-66dc31d1ed5a
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 883ea8f5a38dba440b4b34031f2d3358, type: 2}
+    Type: 1
+  - Id: 10000102
+    uuid: bd7e4bcb2a2f47e4b42fed38025d68c8
+    Name: TV Head
+    Author: c4239f1c-9131-4cf9-b2da-61f3629047ec
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: aee9e16a676bad04e92a5301dfeade64, type: 2}
+    Type: 0
+  - Id: 10000104
+    uuid: b4ba3ac4564e4ce5a0ca2a84a32c9a74
+    Name: Hose Pile
+    Author: c4239f1c-9131-4cf9-b2da-61f3629047ec
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: b9376ef6e86fe834189068c70cef8dbf, type: 2}
+    Type: 0
+  - Id: 10000106
+    uuid: 8f181af1eb814ff4a537eece4add73ce
+    Name: Recycling Bin
+    Author: c4239f1c-9131-4cf9-b2da-61f3629047ec
+    Registered: 1
+    Cosmetic: {fileID: 11400000, guid: 0501bd55cb29e924381a13fb89def0a5, type: 2}
+    Type: 0
