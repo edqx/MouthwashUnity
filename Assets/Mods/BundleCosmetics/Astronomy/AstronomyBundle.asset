@@ -26,22 +26,22 @@ MonoBehaviour:
   cosmeticItems:
   - name: Dreaming Aries
     itemUuid: 621d1bfa-0a92-92d9-c0e5-95902a9c3f76
-    valuation: 0
+    valuation: 2
     cosmeticData: {fileID: 11400000, guid: f03a16c0fbc8a57488d2f83890e9bcd4, type: 2}
     cosmeticViewData: {fileID: 11400000, guid: 67bed4e5b9c863643a570301eac58108, type: 2}
   - name: Galaxy Wig
     itemUuid: 802a44e1-5e95-86a4-63e9-6f7847aa0786
-    valuation: 0
+    valuation: 2
     cosmeticData: {fileID: 11400000, guid: f378fa46eea94394887e0886cc3153a1, type: 2}
     cosmeticViewData: {fileID: 11400000, guid: 860440e70849762458dbae31f554fb53, type: 2}
   - name: Nightsky
     itemUuid: 4582c85a-2ecb-46e1-bf45-7a8398ba685e
-    valuation: 0
+    valuation: 1
     cosmeticData: {fileID: 11400000, guid: 5c058fef79b143a43ba066a9efbd15e7, type: 2}
     cosmeticViewData: {fileID: 11400000, guid: ff4d5595f10c7134c9cdb705998252cc, type: 2}
   - name: Shooting Star
     itemUuid: a6b1de48-9e2b-535c-4538-8eb5509d77a9
-    valuation: 0
+    valuation: 1
     cosmeticData: {fileID: 11400000, guid: fcc1b8229cc2e8a47b50d914c7071d25, type: 2}
     cosmeticViewData: {fileID: 11400000, guid: 885bc0bffc5b1cb488c43033aa0d5d33, type: 2}
   assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\astronomy

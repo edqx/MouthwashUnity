@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2392800432
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a544326ff217cab620cc9c109c6a13d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d234683ecd9eedd3ca7df3b9d976e53
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/BundleCosmetics/Theatre/Music Notes/MusicNotesHatViewData.asset
+- Assets/Mods/BundleCosmetics/Theatre/Music Notes/MusicNotesHat.asset
+- Assets/Mods/BundleCosmetics/Theatre/Comedydrama/ComedyDramaHatViewMask.asset
+- Assets/Mods/BundleCosmetics/Theatre/Mime/MimeHat.asset
+- Assets/Mods/BundleCosmetics/Theatre/Magician Top Hat/MagicianTopHatHat.asset
+- Assets/Mods/BundleCosmetics/Theatre/Manifest.json
+- Assets/Mods/BundleCosmetics/Theatre/Magician Top Hat/MagicianTopHatHatViewData.asset
+- Assets/Mods/BundleCosmetics/Theatre/Comedydrama/ComedyDramaHat.asset
+- Assets/Mods/BundleCosmetics/Theatre/Mime/MimeHatViewData.asset
+Dependencies: []

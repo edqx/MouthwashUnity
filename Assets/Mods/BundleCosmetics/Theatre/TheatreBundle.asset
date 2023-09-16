@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1e899cadff4fe8bcd0f8080c25aad3, type: 3}
+  m_Name: TheatreBundle
+  m_EditorClassIdentifier: 
+  bundleName: Theatre
+  bundleUuid: f455b819-57ce-668c-38de-e2b1f00b56ce
+  fileUuid: 783d0e2e-b261-bca0-f007-4625ab83b6c5
+  authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
+  priceUsd: 349
+  valuation: 2
+  thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/783d0e2e-b261-bca0-f007-4625ab83b6c5.png
+  description: Roll the cameras, cue the lights and watch the show unfold with hats
+    from a range of performances on the big stage.
+  tags: stage,theatre,drama,tragedy,comedy,magician,tophat,hat,mime,music
+  baseResourceId: 1400
+  cosmeticItems:
+  - name: Tragedy
+    itemUuid: aedf9a1b-d8f8-62b4-9d3d-04a46633bb10
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: ef20e66b0a1b0884996f1a3b38ab6622, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 4ec3d70361e4ac446ae16415a8cd13a7, type: 2}
+  - name: Magician Top Hat
+    itemUuid: ecc3c365-41ea-df50-a7f8-d4d49792cc18
+    valuation: 2
+    cosmeticData: {fileID: 11400000, guid: 41ec6516e8153a64ab6a224c452456f2, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: b9c379099630fd642ab4ce2aa04c6753, type: 2}
+  - name: Mime
+    itemUuid: dc703486-75c0-aded-97d1-0e10d8197155
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: d62edd55feefda142a73a74a31272ca4, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: c27b3cfe30595cc4ca51f6e0bd8e5b1b, type: 2}
+  - name: Music Notes
+    itemUuid: f48f5206-ec11-43f3-f330-3afeaf5f315e
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 655367e18cfb9f343ae95f725e64f0d3, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 5f7ab8f0410c0b240851af5d72923e7d, type: 2}
+  assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\theatre

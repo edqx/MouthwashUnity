@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1019639192
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 992f7fcab1af217796d6b492decc7291
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d234683ecd9eedd3ca7df3b9d976e53
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/BundleCosmetics/Elements/Air/AirHatViewData.asset
+- Assets/Mods/BundleCosmetics/Elements/Earth/EarthHatViewData.asset
+- Assets/Mods/BundleCosmetics/Elements/Fire/FireHatViewData.asset
+- Assets/Mods/BundleCosmetics/Elements/Water/WaterHatViewData.asset
+- Assets/Mods/BundleCosmetics/Elements/Manifest.json
+- Assets/Mods/BundleCosmetics/Elements/Earth/EarthHat.asset
+- Assets/Mods/BundleCosmetics/Elements/Fire/FireHat.asset
+- Assets/Mods/BundleCosmetics/Elements/Air/AirHat.asset
+- Assets/Mods/BundleCosmetics/Elements/Water/WaterHat.asset
+Dependencies: []

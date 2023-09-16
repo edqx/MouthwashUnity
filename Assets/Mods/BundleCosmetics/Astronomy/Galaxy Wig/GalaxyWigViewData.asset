@@ -20,4 +20,4 @@ MonoBehaviour:
   FloorImage: {fileID: 21300000, guid: bc4f74894033cf54abe9ed506c4eeb11, type: 3}
   LeftClimbImage: {fileID: 21300000, guid: e43fac77d6c7461458187696b6f905a2, type: 3}
   LeftFloorImage: {fileID: 21300000, guid: 5e9dd899112382a408b7e5d40251099c, type: 3}
-  AltShader: {fileID: 2100000, guid: 8ce561ba342db06409affe04b015161b, type: 2}
+  AltShader: {fileID: 0}

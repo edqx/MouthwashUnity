@@ -38,7 +38,7 @@ MonoBehaviour:
   displayOrder: 0
   NotInStore: 0
   Free: 0
-  SpritePreview: {fileID: 21300000, guid: b53b5c5bc4673f048aacd89302321fac, type: 3}
+  SpritePreview: {fileID: 21300000, guid: c346aae6012cedd44a57c8aeeaf919e2, type: 3}
   PreviewCrewmateColor: 0
   ViewDataRef:
     m_AssetGUID: 

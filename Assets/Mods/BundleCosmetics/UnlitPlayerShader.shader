@@ -72,7 +72,7 @@ Shader "Unlit/PlayerShader"
 
 				fixed4 col = fixed4( saturate(_BodyColor.rgb * ocol.r + _VisorColor.rgb * ocol.g + _BackColor.rgb * ocol.b), ocol.a);
 				if (mx < 0.001 ||
-					abs(1 - mn / mx) < .45)
+					abs(1 - mn / mx) < .25)
 				{
 					col.rgb = ocol.rgb;
 				}

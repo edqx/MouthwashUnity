@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1e899cadff4fe8bcd0f8080c25aad3, type: 3}
+  m_Name: ElementsBundle
+  m_EditorClassIdentifier: 
+  bundleName: Elements
+  bundleUuid: 41b7d7e4-c53b-469c-a205-6a347b71f458
+  fileUuid: 4c1e0073-528f-4f8c-bc6f-79fb6a94347f
+  authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
+  priceUsd: 349
+  valuation: 2
+  thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/4c1e0073-528f-4f8c-bc6f-79fb6a94347f.png
+  description: Some description about elements and whatnot
+  tags: air,earth,fire,water,element,hat
+  baseResourceId: 1300
+  cosmeticItems:
+  - name: Air
+    itemUuid: b5a419cf-d296-4d11-a5a6-20c400392e30
+    valuation: 2
+    cosmeticData: {fileID: 11400000, guid: b6244e29f9b74a249b4b3017bc0d334e, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 0837bc92fa13ee34293728dd7faf3196, type: 2}
+  - name: Earth
+    itemUuid: 732e1152-8514-4456-a9a5-06485e141e3e
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 6aa33478b2f724a45945655f6f44b764, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 7ea24af2d389b0d48b66aa510c2ac627, type: 2}
+  - name: Fire
+    itemUuid: 4ab3d0da-0cab-4db1-8871-8a313d47736f
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 687a75193cf1b744ab46b21c099cef8d, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 82b3f10303dd85041a8a5988241a3297, type: 2}
+  - name: Water
+    itemUuid: 18b58baf-2b91-458e-9a16-a68266f6c8e3
+    valuation: 2
+    cosmeticData: {fileID: 11400000, guid: e13d77cce60b87a4f8533d7b982c4046, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 4bce3f349805b7643bb63e11691c227b, type: 2}
+  assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\elements
