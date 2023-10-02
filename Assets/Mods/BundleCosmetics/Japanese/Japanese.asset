@@ -9,53 +9,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b878d823b747c9b8d68ad6c23b9fdf, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f1e899cadff4fe8bcd0f8080c25aad3, type: 3}
   m_Name: Japanese
   m_EditorClassIdentifier: 
-  uuid: c02bb7cf4b6b4b49a680b64c6bb4e7a2
-  Name: Japanese
-  CoverArt: {fileID: 21300000, guid: 269d48dab36a51b4fb60bf2125d33f65, type: 3}
-  Color:
-    serializedVersion: 2
-    rgba: 1125271
-  Price: 4.99
-  ForSale: 1
-  Description: Pack your bags and travel to Japan. Take this hat bundle with you
-    on the trip to accompany you on your journey to the East.
-  Registered: 0
-  Cosmetics:
-  - Id: 0
-    uuid: 0c1dd032ef8d43eaa856025c291773f8
-    Name: Bonsai
-    Author: 
-    Registered: 0
-    Cosmetic: {fileID: 11400000, guid: a3f73cda3138cbe49ad50516a5d72058, type: 2}
-    Type: 0
-  - Id: 0
-    uuid: 6faa07311de04de69e0f408e76f081fd
-    Name: Geisha
-    Author: 
-    Registered: 0
-    Cosmetic: {fileID: 11400000, guid: 12d118b644cd9ae41aeb601bf8fcae9f, type: 2}
-    Type: 0
-  - Id: 0
-    uuid: 575413e7ff7f4e869869fc0aa14775b6
-    Name: Koi
-    Author: 8caac978-8b5b-4f87-a94d-59dfbc3f870a
-    Registered: 0
-    Cosmetic: {fileID: 11400000, guid: 49b2077f533f7304f89768bd2c5b6241, type: 2}
-    Type: 0
-  - Id: 0
-    uuid: 8ac5fd0d785a4411b8fd58eabcd363ba
-    Name: Origami
-    Author: 
-    Registered: 0
-    Cosmetic: {fileID: 11400000, guid: 9873a486828645449a2fe339c0f666ba, type: 2}
-    Type: 0
-  - Id: 0
-    uuid: c2001803a5f84345b098bcb55096cc70
-    Name: Sushi
-    Author: 
-    Registered: 0
-    Cosmetic: {fileID: 11400000, guid: 1c589a014083aac4d9fa3b7cf1ac0bd3, type: 2}
-    Type: 0
+  bundleName: Japanese
+  bundleUuid: ada3bd91-492c-e6a7-29f9-c0c0f0d7af4a
+  fileUuid: a3b90abb-4cc5-adec-4787-88e8388dee12
+  authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
+  priceUsd: 599
+  valuation: 1
+  thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/a3b90abb-4cc5-adec-4787-88e8388dee12.png
+  description: Pack your bags, we're travelling to the east. Wear these hats to accompany
+    your journey.
+  tags: koi,bonsai,geisha,origami,sushi,japanese,east,oriental,travel
+  featureTags: NEW_RELEASE
+  baseResourceId: 1500
+  cosmeticItems:
+  - name: Bonsai
+    itemUuid: ec33342b-83af-0fc5-d1f4-568e58e16cb9
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: a3f73cda3138cbe49ad50516a5d72058, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 19a048964344322489fec3c492aff718, type: 2}
+  - name: Geisha
+    itemUuid: 3649ce94-d012-1f24-0281-66f96f46f575
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 12d118b644cd9ae41aeb601bf8fcae9f, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: 5a30bcfe501ed85409ca5df5f851664f, type: 2}
+  - name: Koi
+    itemUuid: 92e1dfbe-3941-d04d-7af5-4058d7ad624e
+    valuation: 2
+    cosmeticData: {fileID: 11400000, guid: 49b2077f533f7304f89768bd2c5b6241, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: b7d7c112b4690044ebf190917f4bcd2c, type: 2}
+  - name: Origami
+    itemUuid: 57b4ef0e-36a5-abb8-90b8-6e21177b4d9d
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: 9873a486828645449a2fe339c0f666ba, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: f4316e18cee862949ba810da25872f32, type: 2}
+  - name: Sushi
+    itemUuid: 1f1a770e-4fd6-26fc-ec51-47dfa75a0d09
+    valuation: 1
+    cosmeticData: {fileID: 11400000, guid: f4d70f0679d9a914db783b9ff8d90cdb, type: 2}
+    cosmeticViewData: {fileID: 11400000, guid: d1064d249ee431449800e74a4fcda7db, type: 2}
+  assetBundlePath: F:\Projects\AmongUsProjects\Mouthwash\assets-unity\Assets/AssetBundles\japanese

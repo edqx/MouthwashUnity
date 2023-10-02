@@ -35,6 +35,7 @@ namespace Assets.Editor
         public string thumbnailUrl;
         public string description;
         public string tags;
+        public string featureTags;
         public uint baseResourceId;
         public List<CosmeticDataAndView> cosmeticItems;
         

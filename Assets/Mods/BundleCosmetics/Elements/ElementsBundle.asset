@@ -16,11 +16,12 @@ MonoBehaviour:
   bundleUuid: 41b7d7e4-c53b-469c-a205-6a347b71f458
   fileUuid: 4c1e0073-528f-4f8c-bc6f-79fb6a94347f
   authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
-  priceUsd: 349
+  priceUsd: 599
   valuation: 2
   thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/4c1e0073-528f-4f8c-bc6f-79fb6a94347f.png
   description: Some description about elements and whatnot
   tags: air,earth,fire,water,element,hat
+  featureTags: FEATURED,NEW_RELEASE
   baseResourceId: 1300
   cosmeticItems:
   - name: Air

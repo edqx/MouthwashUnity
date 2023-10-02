@@ -16,12 +16,13 @@ MonoBehaviour:
   bundleUuid: 37f6a931-ad00-4fbb-aa0a-b42c57d8958f
   fileUuid: 352ccb1d-2388-4565-9934-e54b397eacf1
   authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
-  priceUsd: 299
+  priceUsd: 599
   valuation: 1
   thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/352ccb1d-2388-4565-9934-e54b397eacf1.png
   description: Step into the stars! These hats are embedded with the image of nebulae
     far beyond
   tags: space,nebula,stars,hats,sheep,star,galaxy
+  featureTags: FEATURED,NEW_RELEASE
   baseResourceId: 1200
   cosmeticItems:
   - name: Dreaming Aries

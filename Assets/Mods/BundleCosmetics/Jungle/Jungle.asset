@@ -16,11 +16,12 @@ MonoBehaviour:
   bundleUuid: dd10cf62-4e97-44e6-9627-31d164b3004a
   fileUuid: 2889aceb-e6f3-4f75-80a1-5918518b0ba3
   authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
-  priceUsd: 249
+  priceUsd: 499
   valuation: 1
   thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/2889aceb-e6f3-4f75-80a1-5918518b0ba3.png
   description: Unleash your inner monkey with these hats from the heart of the jungle.
   tags: monkey,hippopotanmus,koala,lion,snake,jungle,animal,hats
+  featureTags: FEATURED,CLASSIC
   baseResourceId: 1100
   cosmeticItems:
   - name: Hippopotamus

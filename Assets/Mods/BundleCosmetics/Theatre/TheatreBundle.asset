@@ -16,12 +16,13 @@ MonoBehaviour:
   bundleUuid: f455b819-57ce-668c-38de-e2b1f00b56ce
   fileUuid: 783d0e2e-b261-bca0-f007-4625ab83b6c5
   authorId: 6a5b4f31-74f9-416c-8679-6a3f10b452f3
-  priceUsd: 349
+  priceUsd: 599
   valuation: 2
   thumbnailUrl: https://jhwupengaqaqjewreahz.supabase.co/storage/v1/object/public/MouthwashAssets/783d0e2e-b261-bca0-f007-4625ab83b6c5.png
   description: Roll the cameras, cue the lights and watch the show unfold with hats
     from a range of performances on the big stage.
   tags: stage,theatre,drama,tragedy,comedy,magician,tophat,hat,mime,music
+  featureTags: FEATURED,NEW_RELEASE
   baseResourceId: 1400
   cosmeticItems:
   - name: Tragedy

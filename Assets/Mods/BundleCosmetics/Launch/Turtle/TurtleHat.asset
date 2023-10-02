@@ -9,27 +9,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a85397cd7f8c75d94da833c4e725d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
   m_Name: TurtleHat
   m_EditorClassIdentifier: 
-  MainImage: {fileID: 21300000, guid: 4f639dfb5471e0646821d778a549b518, type: 3}
-  BackImage: {fileID: 21300000, guid: eb913f65da277114f8ade39fe8fb2fa7, type: 3}
-  LeftMainImage: {fileID: 0}
-  LeftBackImage: {fileID: 0}
-  EpicId: 
-  ClimbImage: {fileID: 21300000, guid: 605996db41a15eb45878b38369ce597b, type: 3}
-  FloorImage: {fileID: 21300000, guid: c40bda827a348fa4882c578555b1ac62, type: 3}
-  LeftClimbImage: {fileID: 0}
-  LeftFloorImage: {fileID: 0}
-  InFront: 0
-  NoBounce: 0
+  unlockOnSelectPlatforms: 
+  freeRedeemableCosmetic: 0
+  redeemPopUpColor: -1
+  epicId: 
+  BundleId: 
+  ProductId: mwgg_Turtle
+  ChipOffset: {x: 0, y: 0}
+  beanCost: 0
+  starCost: 0
+  paidOnMobile: 0
+  limitedTime:
+    timeStart:
+      limitedDay: 0
+      limitedMonth: 0
+      limitedYear: 0
+      limitedHour: 0
+      limitedMinute: 0
+    timeEnd:
+      limitedDay: 0
+      limitedMonth: 0
+      limitedYear: 0
+      limitedHour: 0
+      limitedMinute: 0
+  displayOrder: 0
   NotInStore: 0
   Free: 0
-  AltShader: {fileID: 0}
-  ChipOffset: {x: 0, y: 0}
-  LimitedMonth: 1
-  LimitedYear: 1
-  RelatedSkin: {fileID: 0}
+  SpritePreview: {fileID: 21300000, guid: 4f639dfb5471e0646821d778a549b518, type: 3}
+  PreviewCrewmateColor: 0
+  ViewDataRef:
+    m_AssetGUID: 
+    m_SubObjectName: 
+  InFront: 1
+  NoBounce: 0
+  BlocksVisors: 0
   StoreName: Launch
-  ProductId: 
-  Order: 0
+  RelatedSkin: {fileID: 0}

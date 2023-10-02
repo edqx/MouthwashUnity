@@ -9,27 +9,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a85397cd7f8c75d94da833c4e725d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
   m_Name: GeishaHat
   m_EditorClassIdentifier: 
-  MainImage: {fileID: 21300000, guid: 67b10aa9cb5c0bf439e092d0884585bc, type: 3}
-  BackImage: {fileID: 0}
-  LeftMainImage: {fileID: 0}
-  LeftBackImage: {fileID: 0}
-  EpicId: 
-  ClimbImage: {fileID: 21300000, guid: ffc8bcf3be151034d9c50935cd1103d9, type: 3}
-  FloorImage: {fileID: 21300000, guid: a9200517e47db524d92bc1db2eb6cbd3, type: 3}
-  LeftClimbImage: {fileID: 0}
-  LeftFloorImage: {fileID: 0}
-  InFront: 0
-  NoBounce: 1
+  unlockOnSelectPlatforms: 
+  freeRedeemableCosmetic: 0
+  redeemPopUpColor: -1
+  epicId: 
+  BundleId: 
+  ProductId: mwgg_Geisha
+  ChipOffset: {x: 0.1, y: 0.2}
+  beanCost: 0
+  starCost: 0
+  paidOnMobile: 0
+  limitedTime:
+    timeStart:
+      limitedDay: 0
+      limitedMonth: 0
+      limitedYear: 0
+      limitedHour: 0
+      limitedMinute: 0
+    timeEnd:
+      limitedDay: 0
+      limitedMonth: 0
+      limitedYear: 0
+      limitedHour: 0
+      limitedMinute: 0
+  displayOrder: 0
   NotInStore: 0
   Free: 0
-  AltShader: {fileID: 0}
-  ChipOffset: {x: 0.1, y: 0.2}
-  LimitedMonth: 1
-  LimitedYear: 1
-  RelatedSkin: {fileID: 0}
+  SpritePreview: {fileID: 21300000, guid: 67b10aa9cb5c0bf439e092d0884585bc, type: 3}
+  PreviewCrewmateColor: 0
+  ViewDataRef:
+    m_AssetGUID: 
+    m_SubObjectName: 
+  InFront: 1
+  NoBounce: 1
+  BlocksVisors: 0
   StoreName: Japanese
-  ProductId: 
-  Order: 0
+  RelatedSkin: {fileID: 0}

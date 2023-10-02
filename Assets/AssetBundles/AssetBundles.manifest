@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 2868104485
+CRC: 4145702317
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: jungle
+      Name: launch
       Dependencies: {}

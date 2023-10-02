@@ -43,7 +43,7 @@ MonoBehaviour:
   ViewDataRef:
     m_AssetGUID: 
     m_SubObjectName: 
-  InFront: 0
+  InFront: 1
   NoBounce: 1
   BlocksVisors: 0
   StoreName: Astronomy

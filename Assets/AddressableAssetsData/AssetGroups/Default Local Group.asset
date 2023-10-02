@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: a16113fe2bff54a46a2fd43325d8f550
   m_SerializeEntries:
+  - m_GUID: d1064d249ee431449800e74a4fcda7db
+    m_Address: Assets/Mods/BundleCosmetics/Japanese/Sushi/SushiHatViewData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: e765729e1dacfa64c820b053a265bc33
     m_Address: Assets/Mods/BundleCosmetics/Jungle/Koala/alive.png
     m_ReadOnly: 0

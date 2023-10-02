@@ -31,13 +31,40 @@ namespace Assets.Editor
         public string display_name;
         public string client_token;
     }
+    
+    [Serializable]
+    public struct UploadToBucketVec2
+    {
+        public float x;
+        public float y;
+    }
+
+    [Serializable]
+    public struct UploadToBucketAsset
+    {
+        public string type;
+        public string main;
+        public string back;
+        public string left_main;
+        public string left_back;
+        public string climb;
+        public string floor;
+        public string left_climb;
+        public string left_floor;
+        public string thumb;
+        public string product_id;
+        public bool in_front;
+        public bool player_material;
+        public UploadToBucketVec2 chip_offset;
+        public string asset_bundle_path;
+    }
 
     [Serializable]
     public struct UploadToBucketRequestBody
     {
         public string file_uuid;
         public string bundle_data_base_64;
-        public List<string> cosmetic_asset_paths;
+        public UploadToBucketAsset[] bundle_assets_listing;
         public int base_resource_id;
     }
 
@@ -66,6 +93,7 @@ namespace Assets.Editor
         public string valuation;
         public string[] tags;
         public string description;
+        public string[] feature_tags;
         public PublishCosmeticBundleItem[] items;
     }
 
@@ -82,7 +110,7 @@ namespace Assets.Editor
         protected string email;
         protected string password;
 
-        protected List<string> assetPaths = new List<string>();
+        protected List<UploadToBucketAsset> assetMetadata = new List<UploadToBucketAsset>();
 
         protected AuthLoginResponseBody? logInInformation;
         
@@ -156,14 +184,42 @@ namespace Assets.Editor
             }
         }
 
+        public string LoadAssetAsBase64(UnityEngine.Object asset)
+        {
+            if (asset == null)
+                return null;
+            string assetPath = AssetDatabase.GetAssetPath(asset);
+            string absolutePath = Path.Combine(Path.GetDirectoryName(Application.dataPath), assetPath);
+            byte[] assetBundleData = File.ReadAllBytes(absolutePath);
+            return Convert.ToBase64String(assetBundleData);
+        }
+
         public void GetAssetPaths()
         {
             CosmeticBundle bundle = (CosmeticBundle)target;
-            assetPaths.Clear();
+            assetMetadata.Clear();
             foreach (CosmeticDataAndView dataAndView in bundle.cosmeticItems)
             {
                 string assetPath = AssetDatabase.GetAssetPath(dataAndView.cosmeticData);
-                assetPaths.Add(assetPath);
+                Debug.Log(((HatViewData)dataAndView.cosmeticViewData).AltShader);
+                assetMetadata.Add(new UploadToBucketAsset
+                {
+                    asset_bundle_path = assetPath,
+                    type = "HAT",
+                    main = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).MainImage),
+                    back = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).BackImage),
+                    left_main = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).LeftMainImage),
+                    left_back = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).LeftBackImage),
+                    climb = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).ClimbImage),
+                    floor = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).FloorImage),
+                    left_climb = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).LeftClimbImage),
+                    left_floor = LoadAssetAsBase64(((HatViewData)dataAndView.cosmeticViewData).LeftFloorImage),
+                    thumb = LoadAssetAsBase64(dataAndView.cosmeticData.SpritePreview.texture),
+                    product_id = dataAndView.cosmeticData.ProductId,
+                    in_front = ((HatData)dataAndView.cosmeticData).InFront,
+                    player_material = ((HatViewData)dataAndView.cosmeticViewData).AltShader != null,
+                    chip_offset = new UploadToBucketVec2{ x = dataAndView.cosmeticData.ChipOffset.x, y = dataAndView.cosmeticData.ChipOffset.y }
+                });
             }
         }
 
@@ -214,7 +270,7 @@ namespace Assets.Editor
             {
                 file_uuid = bundle.fileUuid,
                 bundle_data_base_64 = assetBundleDataBase64,
-                cosmetic_asset_paths = assetPaths,
+                bundle_assets_listing = assetMetadata.ToArray(),
                 base_resource_id = (int)bundle.baseResourceId
             };
             string requestBodyContent = JsonConvert.SerializeObject(requestBody);
@@ -275,12 +331,13 @@ namespace Assets.Editor
                 valuation = GetValuationString(bundle.valuation),
                 tags = bundle.tags.Split(','),
                 description = bundle.description,
+                feature_tags = bundle.featureTags.Split(','),
                 items = bundle.cosmeticItems.Select((x, idx) => new PublishCosmeticBundleItem()
                 {
                     id = x.itemUuid,
                     name = x.name,
                     among_us_id = x.cosmeticData.ProductId,
-                    resource_path = assetPaths[idx],
+                    resource_path = assetMetadata[idx].asset_bundle_path,
                     type = x.cosmeticData is HatData ? "HAT" : "UNKNOWN",
                     resource_id = (int)bundle.baseResourceId + (idx + 1) * 2,
                     valuation = GetValuationString(x.valuation)
