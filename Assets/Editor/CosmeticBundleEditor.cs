@@ -54,7 +54,7 @@ namespace Assets.Editor
         public string thumb;
         public string product_id;
         public bool in_front;
-        public bool player_material;
+        public bool use_player_color;
         public UploadToBucketVec2 chip_offset;
         public string asset_bundle_path;
     }
@@ -217,7 +217,7 @@ namespace Assets.Editor
                     thumb = LoadAssetAsBase64(dataAndView.cosmeticData.SpritePreview.texture),
                     product_id = dataAndView.cosmeticData.ProductId,
                     in_front = ((HatData)dataAndView.cosmeticData).InFront,
-                    player_material = ((HatViewData)dataAndView.cosmeticViewData).AltShader != null,
+                    use_player_color = ((HatViewData)dataAndView.cosmeticViewData).AltShader != null,
                     chip_offset = new UploadToBucketVec2{ x = dataAndView.cosmeticData.ChipOffset.x, y = dataAndView.cosmeticData.ChipOffset.y }
                 });
             }

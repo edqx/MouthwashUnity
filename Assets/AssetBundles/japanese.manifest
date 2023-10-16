@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2374485476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 193e5d9feaec49444e16bcfc36be4306
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d234683ecd9eedd3ca7df3b9d976e53
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62a54d6c39d84fa39c31636478677c57, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/BundleCosmetics/Japanese/Manifest.json
+- Assets/Mods/BundleCosmetics/Japanese/Koi/KoiHatViewData.asset
+- Assets/Mods/BundleCosmetics/Japanese/Sushi/SushiHatViewData.asset
+- Assets/Mods/BundleCosmetics/Japanese/Sushi/SushiHat.asset
+- Assets/Mods/BundleCosmetics/Japanese/Origami/OrigamiHat.asset
+- Assets/Mods/BundleCosmetics/Japanese/Bonsai/BonsaiHatViewData.asset
+- Assets/Mods/BundleCosmetics/Japanese/Geisha/GeishaHat.asset
+- Assets/Mods/BundleCosmetics/Japanese/Origami/OrigamiHatViewData.asset
+- Assets/Mods/BundleCosmetics/Japanese/Bonsai/BonsaiHat.asset
+- Assets/Mods/BundleCosmetics/Japanese/Geisha/GeishaHatViewData.asset
+- Assets/Mods/BundleCosmetics/Japanese/Koi/KoiHat.asset
+Dependencies: []

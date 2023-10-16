@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1482662975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5385b76292608c4ce18b3ac38bd7d4b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e79306086be49574bc2bb5f6d989f6f2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/Emojis/Emotes.asset
+Dependencies: []

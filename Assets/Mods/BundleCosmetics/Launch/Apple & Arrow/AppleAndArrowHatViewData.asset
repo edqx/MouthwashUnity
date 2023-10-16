@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b19bf7740654a629dd494cafff39f03, type: 3}
+  m_Name: AppleAndArrowHatViewData
+  m_EditorClassIdentifier: 
+  MainImage: {fileID: 21300000, guid: add178c494bb0b5449828b969f416007, type: 3}
+  BackImage: {fileID: 21300000, guid: f2d191478e39109428968f8ab4dd2ace, type: 3}
+  LeftMainImage: {fileID: 0}
+  LeftBackImage: {fileID: 0}
+  ClimbImage: {fileID: 21300000, guid: b67ba8fc5b38e9446bca6952ccfdb345, type: 3}
+  FloorImage: {fileID: 21300000, guid: 508426a3d883335449ed4e3f983d20c1, type: 3}
+  LeftClimbImage: {fileID: 0}
+  LeftFloorImage: {fileID: 0}
+  AltShader: {fileID: 0}
