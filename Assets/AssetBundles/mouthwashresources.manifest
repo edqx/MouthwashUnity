@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1482662975
+CRC: 427789322
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c5385b76292608c4ce18b3ac38bd7d4b
+    Hash: c4f76b2f432a2e6b0ff6ef2895c97834
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e79306086be49574bc2bb5f6d989f6f2
+    Hash: f87430471125a0d52b2828ef7e715b3e
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -18,8 +18,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
 - Class: 115
-  Script: {instanceID: 0}
-- Class: 213
   Script: {instanceID: 0}
 Assets:
 - Assets/Mods/Emojis/Emotes.asset

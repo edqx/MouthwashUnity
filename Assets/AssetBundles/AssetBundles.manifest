@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 4145702317
+CRC: 1284953490
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: launch
+      Name: mouthwashresources
+      Dependencies: {}
+    Info_1:
+      Name: townofpolus
       Dependencies: {}

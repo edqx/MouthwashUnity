@@ -170,6 +170,105 @@ TextureImporter:
   - first:
       213: 3042561573810525806
     second: thief
+  - first:
+      213: -6734002085248474957
+    second: emotesheet_0
+  - first:
+      213: -8335982110968431493
+    second: emotesheet_1
+  - first:
+      213: 3266852416132987202
+    second: emotesheet_2
+  - first:
+      213: 3644548657011288949
+    second: emotesheet_3
+  - first:
+      213: -7370535644962377559
+    second: emotesheet_4
+  - first:
+      213: -7942387764359410405
+    second: emotesheet_5
+  - first:
+      213: -3701979414525780345
+    second: emotesheet_6
+  - first:
+      213: -3535245002982209048
+    second: emotesheet_7
+  - first:
+      213: -4040176046037084272
+    second: emotesheet_8
+  - first:
+      213: 4878176993143115172
+    second: emotesheet_9
+  - first:
+      213: 8657877605600144892
+    second: emotesheet_10
+  - first:
+      213: 8516414746678778486
+    second: emotesheet_11
+  - first:
+      213: 7026284245992308506
+    second: emotesheet_12
+  - first:
+      213: 1692402059810983621
+    second: emotesheet_13
+  - first:
+      213: 3527704152080096132
+    second: emotesheet_14
+  - first:
+      213: 2074671313325163240
+    second: emotesheet_15
+  - first:
+      213: -9181101288001895868
+    second: emotesheet_16
+  - first:
+      213: 945718179556561185
+    second: emotesheet_17
+  - first:
+      213: -6606353826002091255
+    second: emotesheet_18
+  - first:
+      213: -6959866539828138795
+    second: emotesheet_19
+  - first:
+      213: 8222510905160723303
+    second: emotesheet_20
+  - first:
+      213: -2154347092356679968
+    second: emotesheet_21
+  - first:
+      213: -6776363149793686653
+    second: emotesheet_22
+  - first:
+      213: 3147928994210677577
+    second: emotesheet_23
+  - first:
+      213: 8891834081458403975
+    second: emotesheet_24
+  - first:
+      213: 5487898149008724094
+    second: emotesheet_25
+  - first:
+      213: -9101566636925925223
+    second: emotesheet_26
+  - first:
+      213: -6681219401109981629
+    second: emotesheet_27
+  - first:
+      213: 3135437049715063825
+    second: emotesheet_28
+  - first:
+      213: -861694311922107190
+    second: emotesheet_29
+  - first:
+      213: -7045855274027918217
+    second: emotesheet_30
+  - first:
+      213: 6362027206282205839
+    second: emotesheet_31
+  - first:
+      213: -2479615364287587643
+    second: emotesheet_32
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -255,11 +354,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crewmate
+      name: emotesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -276,11 +375,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crewalign
+      name: emotesheet_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -297,53 +396,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: neutalign
+      name: emotesheet_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b13946b04a7158450800000000000000
-      internalID: 6090300064421679899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: impoalign
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef211f4fdeb8e6860800000000000000
-      internalID: 7525105881515627262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: impostor
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
+        x: 256
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -360,11 +417,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grenadier
+      name: emotesheet_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 320
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -381,11 +438,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jester
+      name: emotesheet_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 384
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -402,11 +459,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: engineer
+      name: emotesheet_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 448
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -423,11 +480,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oracle
+      name: emotesheet_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -444,11 +501,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantom
+      name: emotesheet_9
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -465,11 +522,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serialkiller
+      name: emotesheet_10
       rect:
         serializedVersion: 2
         x: 128
-        y: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -486,11 +543,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snitch
+      name: emotesheet_11
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -507,11 +564,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheriff
+      name: emotesheet_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 256
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -528,11 +585,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impervious
+      name: emotesheet_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 320
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -549,11 +606,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: locksmith
+      name: emotesheet_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 384
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -570,199 +627,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swooper
+      name: emotesheet_24
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2261ac0122e07e600800000000000000
-      internalID: 497381823321085474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: partnerAlign
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb31995c6b3c0c210800000000000000
-      internalID: 1351295077977756603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapSkeld
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e039b315bcc3a1e80800000000000000
-      internalID: -8207180526990421234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapSubmerged
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c24e79a356bc913f0800000000000000
-      internalID: -929488212440128468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapMira
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c815c72877c4dcf10800000000000000
-      internalID: 2291571861575455116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapPolus
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 129f18a70a4f2dad0800000000000000
-      internalID: -2678809858244740831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: morphling
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e924efdc2819a480800000000000000
-      internalID: -8887545808625063453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapAirship
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88fdc225394cc2360800000000000000
-      internalID: 7146302845748043656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: poisoner
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d158d4520a8b8e0800000000000000
-      internalID: -1677414779120706294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platItch
-      rect:
-        serializedVersion: 2
-        x: 256
+        x: 0
         y: 64
         width: 64
         height: 64
@@ -780,11 +648,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playGoogle
+      name: emotesheet_2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
+        x: 128
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -794,18 +662,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3eb442343e6a840800000000000000
-      internalID: 5235121494376047560
+      spriteID: 249bb35c6f0365d20800000000000000
+      internalID: 3266852416132987202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platSteam
+      name: emotesheet_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
+        x: 192
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -815,18 +683,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f693bb4d0664a4a50800000000000000
-      internalID: 6506089993389947247
+      spriteID: 57be8c3a1b9049230800000000000000
+      internalID: 3644548657011288949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platEpic
+      name: emotesheet_15
       rect:
         serializedVersion: 2
         x: 448
-        y: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -836,18 +704,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18bf70e70e9c19470800000000000000
-      internalID: 8399716746046995329
+      spriteID: 8e280704196bacc10800000000000000
+      internalID: 2074671313325163240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platPlaceholder
+      name: emotesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44204c9a50d269080800000000000000
+      internalID: -9181101288001895868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12119167caddf1d00800000000000000
+      internalID: 945718179556561185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9034a9c72348154a0800000000000000
+      internalID: -6606353826002091255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcaa69c146996f90800000000000000
+      internalID: -6959866539828138795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_20
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -857,18 +809,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5757cda901c069c0800000000000000
-      internalID: -3935933827007424676
+      spriteID: 76b61ef7a1a3c1270800000000000000
+      internalID: 8222510905160723303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platUnknown
+      name: emotesheet_21
       rect:
         serializedVersion: 2
         x: 320
-        y: 0
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -878,18 +830,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3bd6d2c452ac7fd0800000000000000
-      internalID: -2342819221209687237
+      spriteID: 0e63f25dbb83a12e0800000000000000
+      internalID: -2154347092356679968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mentor
+      name: emotesheet_22
       rect:
         serializedVersion: 2
         x: 384
-        y: 0
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -899,17 +851,185 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e563d9474bdf5b400800000000000000
-      internalID: 339456298428741214
+      spriteID: 38b00833e9585f1a0800000000000000
+      internalID: -6776363149793686653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: thief
+      name: emotesheet_23
       rect:
         serializedVersion: 2
         x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9438416edb0bfab20800000000000000
+      internalID: 3147928994210677577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7050375a4ee82c40800000000000000
+      internalID: 5487898149008724094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cb7aad5db0b180800000000000000
+      internalID: -9101566636925925223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34634627a5a8743a0800000000000000
+      internalID: -6681219401109981629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c7ddb626f438b20800000000000000
+      internalID: 3135437049715063825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc78e8b695aa04f0800000000000000
+      internalID: -861694311922107190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cd0c475f7183e90800000000000000
+      internalID: -7045855274027918217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a52d169067a4850800000000000000
+      internalID: 6362027206282205839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emotesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 64
         height: 64
@@ -920,8 +1040,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e66da3691a9593a20800000000000000
-      internalID: 3042561573810525806
+      spriteID: 5ca9908b6f2a69dd0800000000000000
+      internalID: -2479615364287587643
       vertices: []
       indices: 
       edges: []
